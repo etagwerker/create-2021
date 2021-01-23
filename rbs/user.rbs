@@ -1,0 +1,8 @@
+# test.rb
+class User
+  def initialize: (name: untyped name, age: untyped age) -> untyped
+
+  attr_reader name: untyped
+
+  attr_reader age: untyped
+end
