@@ -1,0 +1,16 @@
+ production:
+   primary:
+     database: my_primary_database
+     adapter: mysql
+   primary_replica:
+     database: my_primary_database
+     adapter: mysql
+     replica: true
+   primary_shard_one:
+     database: my_primary_shard_one
+     adapter: mysql
+   primary_shard_one_replica:
+     database: my_primary_shard_one
+     adapter: mysql
+     replica: true
+
